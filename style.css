@@ -1,0 +1,83 @@
+* {
+margin: 0;
+
+}
+html { 
+    background: url(backimg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+
+}
+
+.nav-bar {
+    background-color: rgba(51, 51, 51, 0);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .nav-bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    margin: 15px;
+  }
+
+ i {
+     float: right;
+     color:#f2f2f2;
+     text-align: center;
+     padding: 20px 16px;
+     text-decoration: none;
+     font-size: 23px;
+     margin-top: 15px;
+
+ }
+  a:hover{
+     border-bottom: 7px solid rgb(112, 235, 112);
+     cursor: pointer;
+ }
+
+ img {
+     width: 60px;
+ }
+
+ .caption {
+     margin-left: 90px;
+     margin-top: 140px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: white;
+ }
+
+
+ h1 {
+     font-weight: bold;
+     font-size: 55px;
+ }
+ 
+ h2 {
+     font-size:36px ;
+ }
+
+ .btn {
+
+    width:220px;
+    height: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: rgb(121, 121, 255);
+    color: white;
+
+
+ }
+
+ .btn:hover {
+     background-color: blue ;
+ }
